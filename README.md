@@ -113,6 +113,7 @@ Purpose-built tools for understanding user behavior, retention, and product usag
 - [Mixpanel](https://mixpanel.com) - Self-serve product analytics for user behavior.
 - [PostHog](https://posthog.com) - Open source product analytics, feature flags, and A/B testing.
 - [Screeb](https://screeb.app) - Product analytics with built-in user feedback and session replay.
+- [Talivia](https://talivia.com) - Open-source product analytics connecting traffic, sessions, funnels, events, and session replay to customer revenue.
 
 ### 📣 Marketing analytics
 
