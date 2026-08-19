@@ -179,6 +179,7 @@ Validate designs and flows with real users before shipping.
 - [Maze](https://maze.co) - Rapid product research platform for usability testing.
 - [Sprig](https://sprig.com) - In-product concept and prototype testing tied to real user segments.
 - [UserTesting](https://usertesting.com) - On-demand human insight platform.
+- [Boidwatch](https://boidwatch.com) - AI persona testing where LLM personas drive real browser sessions and return client-ready UX audit reports.
 
 ## 🎙️ User interview
 
