@@ -31,6 +31,9 @@
     api_host: 'https://hogpost.samber.dev',
     ui_host: 'https://us.posthog.com',
     defaults: '2026-05-30',
-    person_profiles: 'identified_only',
+    // Nobody ever logs in to an awesome list, so 'identified_only' — the default
+    // under the 2026-05-30 preset — would leave every visitor profile-less and
+    // strip person-level breakdowns from the whole site.
+    person_profiles: 'always',
   })
 </script>
