@@ -1,0 +1,18 @@
+---
+// GA4 property for the public site. Doubles as the Google Search Console ownership
+// proof: the "Google Analytics" verification method only accepts the gtag.js snippet
+// when it renders inside <head>, so this component must be placed there on every page.
+const GA_MEASUREMENT_ID = 'G-N4SYF5LHT5';
+---
+
+<!-- Google tag (gtag.js) -->
+<script async is:inline src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+></script>
+<script is:inline define:vars={{ GA_MEASUREMENT_ID }}>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+  gtag('config', GA_MEASUREMENT_ID);
+</script>

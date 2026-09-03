@@ -1,5 +1,6 @@
 ---
 import { getAllSections } from '../lib/readme';
+import Analytics from '../components/Analytics.astro';
 import '../styles/global.css';
 
 export function getStaticPaths() {
@@ -131,6 +132,8 @@ const jsonLd = {
 
     <!-- Structured Data -->
     <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+
+    <Analytics />
   </head>
   <body>
     <div class="hero" style="padding: 2.5rem 1rem;">

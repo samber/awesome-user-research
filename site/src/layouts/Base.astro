@@ -2,6 +2,7 @@
 import { execFileSync } from 'node:child_process';
 import { resolve } from 'node:path';
 import { readFileSync } from 'node:fs';
+import Analytics from '../components/Analytics.astro';
 
 const SITE_URL = 'https://samber.github.io/awesome-user-research/';
 
@@ -145,6 +146,8 @@ const jsonLd = {
 
     <!-- Structured Data -->
     <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+
+    <Analytics />
   </head>
   <body>
     <div class="hero">
@@ -188,16 +191,5 @@ const jsonLd = {
     </div>
 
     <slot />
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-N4SYF5LHT5"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-N4SYF5LHT5');
-</script>
-
   </body>
 </html>
