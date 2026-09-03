@@ -1,18 +1,39 @@
 ---
-// GA4 property for the public site. Doubles as the Google Search Console ownership
-// proof: the "Google Analytics" verification method only accepts the gtag.js snippet
-// when it renders inside <head>, so this component must be placed there on every page.
-const GA_MEASUREMENT_ID = 'G-N4SYF5LHT5';
+// Third-party tags for the public site. Both vendor snippets are kept verbatim and
+// `is:inline`, so Astro emits them into the HTML instead of bundling them into a
+// module: Search Console reads the raw <head> markup when verifying ownership via
+// Google Analytics, and it matches the measurement ID only as a literal string —
+// routing the ID through a variable makes verification fail.
+//
+// Neither identifier below is a secret. The GA4 measurement ID and the PostHog
+// project token are both write-only, client-side values meant to ship in public HTML.
 ---
 
-<!-- Google tag (gtag.js) -->
-<script async is:inline src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
-></script>
-<script is:inline define:vars={{ GA_MEASUREMENT_ID }}>
+<!-- Google tag (gtag.js) — GA4 property for samber.github.io/awesome-user-research -->
+<script async is:inline src="https://www.googletagmanager.com/gtag/js?id=G-N4SYF5LHT5"></script>
+<script is:inline>
   window.dataLayer = window.dataLayer || [];
   function gtag() {
     dataLayer.push(arguments);
   }
   gtag('js', new Date());
-  gtag('config', GA_MEASUREMENT_ID);
+  gtag('config', 'G-N4SYF5LHT5');
+</script>
+
+<!-- PostHog — project awesome-user-research (592228), org samber-oss2, US Cloud -->
+<script is:inline>
+  !function(t,e){var o,n,p,r;e.__SV||(window.posthog && window.posthog.__loaded)||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}p||((p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",p.onerror=function(){p=null},(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r));var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="al ol ll init Il Rl Tl Ml Ol za El Dl Sl capture getExtension Pl nl Hl calculateEventProperties Bl register register_once register_for_session unregister unregister_for_session Vl Cl zl getFeatureFlag getFeatureFlagPayload getFeatureFlagResult getAllFeatureFlags isFeatureEnabled reloadFeatureFlags updateFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSurveysLoaded onSessionId getSurveys getActiveMatchingSurveys renderSurvey displaySurvey cancelPendingSurvey canRenderSurvey canRenderSurveyAsync Gl identify setPersonProperties unsetPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset Zl shutdown setIdentity clearIdentity get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException addExceptionStep captureLog startExceptionAutocapture stopExceptionAutocapture loadToolbar get_property getSessionProperty Ul ql createPersonProfile setInternalOrTestUser Wl ul hl opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing get_explicit_consent_status is_capturing clear_opt_in_out_capturing $l debug Ua Jn getPageViewId captureTraceFeedback captureTraceMetric bl".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+  posthog.init('phc_kWYTj2Qkdo6xE2P2Pc68ZuF86TTVw9AuyQPBCL5JJKL3', {
+    // Ingest through the shared reverse proxy rather than *.i.posthog.com, which
+    // ad blockers drop by domain — pointing at PostHog directly silently loses a
+    // large share of the traffic. ui_host stays on the real app because the proxy
+    // only fronts ingestion, and toolbar and session-replay links must resolve.
+    api_host: 'https://hogpost.samber.dev',
+    ui_host: 'https://us.posthog.com',
+    defaults: '2026-05-30',
+    // Nobody ever logs in to an awesome list, so 'identified_only' — the default
+    // under the 2026-05-30 preset — would leave every visitor profile-less and
+    // strip person-level breakdowns from the whole site.
+    person_profiles: 'always',
+  })
 </script>
