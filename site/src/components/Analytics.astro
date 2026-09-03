@@ -1,12 +1,13 @@
 ---
-// Third-party tags for the public site. Both vendor snippets are kept verbatim and
+// Third-party tags for the public site. Every vendor snippet is kept verbatim and
 // `is:inline`, so Astro emits them into the HTML instead of bundling them into a
 // module: Search Console reads the raw <head> markup when verifying ownership via
 // Google Analytics, and it matches the measurement ID only as a literal string —
 // routing the ID through a variable makes verification fail.
 //
-// Neither identifier below is a secret. The GA4 measurement ID and the PostHog
-// project token are both write-only, client-side values meant to ship in public HTML.
+// None of the identifiers below is a secret. The GA4 measurement ID, the PostHog
+// project token and the Ahrefs data key are all write-only, client-side values
+// meant to ship in public HTML.
 ---
 
 <!-- Google tag (gtag.js) — GA4 property for samber.github.io/awesome-user-research -->
@@ -39,3 +40,10 @@
     person_profiles: 'always',
   })
 </script>
+
+<!-- Ahrefs Web Analytics — project awesome-user-research (10322954) -->
+<script
+  async
+  is:inline
+  src="https://analytics.ahrefs.com/analytics.js"
+  data-key="ZTtNkZmI6cXSnXXtm2Jbzg"></script>
