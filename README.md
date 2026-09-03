@@ -2,35 +2,37 @@
 
 > A curated list of tools for Product Managers and UX Researchers — covering the full stack from feedback collection and session recording to analytics, experimentation, and AI-powered synthesis.
 
+<!--lint disable double-link-->
+
 ## Contents
 
-- [All-in-one platforms](#-all-in-one-platforms)
-- [Survey](#-survey)
-	- [In-app surveys](#-in-app-surveys)
-	- [Feedback analysis](#-feedback-analysis)
-- [Product discovery](#-product-discovery)
-- [Session recording](#-session-recording)
-- [Analytics](#-analytics)
-	- [Product analytics](#-product-analytics)
-	- [Marketing analytics](#-marketing-analytics)
-	- [Business intelligence](#-business-intelligence)
-	- [Customer data platform](#-customer-data-platform)
-- [Feature flags & experimentation](#-feature-flags--experimentation)
-- [Product tours & onboarding](#-product-tours--onboarding)
-- [User testing](#-user-testing)
-- [User interview](#-user-interview)
-- [Research repository](#-research-repository)
-- [User recruitment](#-user-recruitment)
-- [Learn](#-learn)
-	- [Event](#-event)
-	- [Talk](#-talk)
-	- [Podcast](#-podcast)
-	- [Books](#-books)
-	- [Blogs](#-blogs)
-	- [Newsletters](#-newsletters)
-	- [People to follow](#-people-to-follow)
+- [All-in-one platforms](#all-in-one-platforms)
+- [Survey](#survey)
+	- [In-app surveys](#in-app-surveys)
+	- [Feedback analysis](#feedback-analysis)
+- [Product discovery](#product-discovery)
+- [Session recording](#session-recording)
+- [Analytics](#analytics)
+	- [Product analytics](#product-analytics)
+	- [Marketing analytics](#marketing-analytics)
+	- [Business intelligence](#business-intelligence)
+	- [Customer data platform](#customer-data-platform)
+- [Feature flags & experimentation](#feature-flags--experimentation)
+- [Product tours & onboarding](#product-tours--onboarding)
+- [User testing](#user-testing)
+- [User interview](#user-interview)
+- [Research repository](#research-repository)
+- [User recruitment](#user-recruitment)
+- [Learn](#learn)
+	- [Event](#event)
+	- [Talk](#talk)
+	- [Podcast](#podcast)
+	- [Books](#books)
+	- [Blogs](#blogs)
+	- [Newsletters](#newsletters)
+	- [People to follow](#people-to-follow)
 
-## 🧩 All-in-one platforms
+## All-in-one platforms
 
 > Why buy five tools when you can be overwhelmed by one?
 
@@ -43,11 +45,11 @@ Platforms that combine multiple research and analytics capabilities — session 
 - [PostHog](https://posthog.com) - Open source suite: analytics, session replay, feature flags, surveys, and A/B testing.
 - [Screeb](https://screeb.app) - Product analytics, session replay, and in-product surveys in one platform.
 
-## 💬 Survey
+## Survey
 
 > Users will tell you exactly what they want. Then use the product completely differently.
 
-### 📋 In-app surveys
+### In-app surveys
 
 > "On a scale of 1 to 5, how likely are you to abandon this survey before finishing it?"
 
@@ -60,7 +62,7 @@ Ask questions along your users' journey.
 - [Screeb](https://screeb.app) - User feedback and in-product surveys.
 - [Sprig](https://sprig.com) - In-product surveys and concept testing tied to real user segments.
 
-### 🔬 Feedback analysis
+### Feedback analysis
 
 > We have 10.000 pieces of user feedback. They all say "make it faster." Faster than what?
 
@@ -71,7 +73,7 @@ Aggregate, tag, and extract signal from qualitative feedback at scale.
 - [Kapiche](https://kapiche.com) - AI-driven theme discovery and clustering from unstructured customer feedback.
 - [Thematic](https://getthematic.com) - AI-powered thematic analysis for clustering recurring themes from open-ended feedback.
 
-## 🔍 Product discovery
+## Product discovery
 
 > We built the feature users asked for. Turns out they meant something else entirely.
 
@@ -81,7 +83,7 @@ Build an understanding of customers, then using that knowledge to prioritize fea
 - [Harvestr](https://harvestr.io) - Customer feedback and product management software.
 - [Productboard](https://www.productboard.com) - Product management software centered on customer insights.
 
-## 🎥 Session recording
+## Session recording
 
 > Big Browser is watching you click the wrong button again.
 
@@ -97,11 +99,11 @@ Session recordings are renderings of real actions taken by visitors as they brow
 - [Screeb](https://screeb.app) - Session replay with mobile support and product analytics integration.
 - [Smartlook](https://smartlook.com) - Qualitative analytics with session recordings and heatmaps.
 
-## 📊 Analytics
+## Analytics
 
 > Data-driven decisions, made by people who already knew what they wanted to do.
 
-### 📈 Product analytics
+### Product analytics
 
 > Our DAU is up 200%! (We changed how we define "active".)
 
@@ -114,7 +116,7 @@ Purpose-built tools for understanding user behavior, retention, and product usag
 - [PostHog](https://posthog.com) - Open source product analytics, feature flags, and A/B testing.
 - [Screeb](https://screeb.app) - Product analytics with built-in user feedback and session replay.
 
-### 📣 Marketing analytics
+### Marketing analytics
 
 > We got 10,000 visitors! Only 3 converted, but the traffic slide looked great in the deck.
 
@@ -123,7 +125,7 @@ Tools focused on acquisition, conversion, and campaign performance across web an
 - [Contentsquare](https://contentsquare.com) - Digital experience analytics with journey mapping, zone analysis, and conversion insights.
 - [Google Analytics](https://analytics.google.com) - Web and app analytics by Google.
 
-### 🏛️ Business intelligence
+### Business intelligence
 
 > A SQL query walks into a bar, walks up to two tables and asks... "Can I join you?"
 
@@ -133,7 +135,7 @@ General-purpose querying and visualization tools for slicing data across sources
 - [Metabase](https://metabase.com) - Open source business intelligence and analytics.
 - [Redash](https://redash.io) - Open source tool for querying and visualizing data.
 
-### 🗄️ Customer data platform
+### Customer data platform
 
 > Your data is in 12 places. None of them agree on the user's name.
 
@@ -144,7 +146,7 @@ A customer data platform is a collection of software which creates a persistent,
 - [Segment](https://segment.com) - Collect, clean, and activate your customer data.
 - [Tealium](https://tealium.com) - Real-time customer data hub and tag management.
 
-## 🚩 Feature flags & experimentation
+## Feature flags & experimentation
 
 > We ran an A/B test. Variant B won. No one remembered to turn off variant A.
 
@@ -158,7 +160,7 @@ Control feature rollouts and run rigorous experiments to validate product decisi
 - [Split.io](https://split.io) - Feature flags with built-in impact measurement.
 - [VWO](https://vwo.com) - A/B testing and conversion optimization platform.
 
-## 🗺️ Product tours & onboarding
+## Product tours & onboarding
 
 > Our onboarding is so good, users still get lost — they just feel great about it.
 
@@ -169,7 +171,7 @@ Guide users through your product, drive adoption, and collect in-context feedbac
 - [Pendo](https://pendo.io) - In-app guides and walkthroughs tied to product analytics.
 - [Screeb](https://screeb.app) - In-app product tours and onboarding flows tied to user segments and analytics.
 
-## 🧪 User testing
+## User testing
 
 > It takes 5 users to find 85% of usability issues. It takes 1 stakeholder to ignore all of them.
 
@@ -180,7 +182,7 @@ Validate designs and flows with real users before shipping.
 - [Sprig](https://sprig.com) - In-product concept and prototype testing tied to real user segments.
 - [UserTesting](https://usertesting.com) - On-demand human insight platform.
 
-## 🎙️ User interview
+## User interview
 
 > "Tell me about the last time you used our product." — "What product?"
 
@@ -193,7 +195,7 @@ Conduct, record, and analyze user interviews at scale.
 - [Lyssna](https://lyssna.com) - Remote research platform for moderated and unmoderated user interviews.
 - [Outset](https://outset.ai) - AI-moderated interviews that scale qualitative research without a human moderator.
 
-## 🗂️ Research repository
+## Research repository
 
 > Where insights go to be forgotten by everyone except the person who ran the study.
 
@@ -203,7 +205,7 @@ Centralize, organize, and make discoverable all research artifacts — transcrip
 - [Dovetail](https://dovetailapp.com) - Research repository with AI-powered tagging, theming, and insight synthesis.
 - [Marvin](https://heymarvin.com) - AI research assistant for tagging, analysis, and insight generation across studies.
 
-## 🎯 User recruitment
+## User recruitment
 
 > Finding the right participant is harder than finding a bug in production on a Friday.
 
@@ -213,11 +215,11 @@ Find and recruit the right participants for your research.
 - [Respondent](https://respondent.io) - B2B and consumer research participant recruitment.
 - [User Interviews](https://userinterviews.com) - The fastest way to recruit research participants.
 
-## 📚 Learn
+## Learn
 
 > The best time to learn about user research was before you shipped. The second best time is now.
 
-### 🎪 Event
+### Event
 
 > A room full of people who agree users should be central to everything — see you next year.
 
@@ -227,7 +229,7 @@ Find and recruit the right participants for your research.
 - [UXLX](https://ux-lx.com) - UX Lisbon, one of Europe's leading UX conferences.
 - [UXPA International](https://uxpa.org) - Annual conference by the User Experience Professionals Association.
 
-### 🎤 Talk
+### Talk
 
 > Watching someone talk about talking to users. Close enough.
 
@@ -238,7 +240,7 @@ Find and recruit the right participants for your research.
 - [The Mom Test](https://www.youtube.com/watch?v=l9ET1WqRvSI) - Rob Fitzpatrick on talking to customers without fooling yourself.
 - [The Power of Storytelling in Research](https://www.youtube.com/watch?v=e7YpMTBMKbI) - Steve Portigal on synthesizing and communicating research findings.
 
-### 🎧 Podcast
+### Podcast
 
 > Six episodes in on how to talk to users. Still haven't called one.
 
@@ -249,7 +251,7 @@ Find and recruit the right participants for your research.
 - [Rosenfeld Review Podcast](https://rosenverse.rosenfeldmedia.com/podcasts) - Interviews with UX practitioners and design thinkers.
 - [This is HCD](https://www.thisishcd.com) - Human-centered design conversations with practitioners worldwide.
 
-### 📖 Books
+### Books
 
 > Everyone on the team owns The Mom Test. One person has read it.
 
@@ -264,7 +266,7 @@ Essential reading for product managers and UX researchers.
 - [The Mom Test](https://www.momtestbook.com) - Rob Fitzpatrick. How to talk to customers and learn if your business idea is good.
 - [The User Experience Team of One](https://rosenfeldmedia.com/books/the-user-experience-team-of-one-second-edition/) - Leah Buley. A research and design survival guide for solo practitioners.
 
-### 📰 Blogs
+### Blogs
 
 > Bookmarked for later. Later is a lie.
 
@@ -274,14 +276,14 @@ Essential reading for product managers and UX researchers.
 - [UX Collective](https://uxdesign.cc) - Medium publication covering UX research, design, and product.
 - [UX Matters](https://uxmatters.com) - Long-form articles on UX research methods and strategy.
 
-### 💌 Newsletters
+### Newsletters
 
 > Weekly reminders to do user research, delivered to an inbox you check between meetings you're already late for.
 
 - [Humans Who Research](https://humanswho.com/newsletter) - Practical UX research methods and career advice.
 - [Lenny's Newsletter](https://www.lennysnewsletter.com) - Product strategy, growth, and user insights from Lenny Rachitsky.
 
-### 👥 People to follow
+### People to follow
 
 > They all say "talk to your users." You liked the tweet instead.
 
@@ -296,21 +298,14 @@ Practitioners, thinkers, and writers shaping the field of UX research and produc
 - [Steve Portigal](https://x.com/steveportigal) - Author of *Interviewing Users*; leading voice in user research practice.
 - [Teresa Torres](https://x.com/ttorres) - Author of *Continuous Discovery Habits*; advocate for outcome-driven product teams.
 
-## 🧺 Contribute
+## Contributing
 
-Contributions welcome! Read the [contribution guidelines](contributing.md) first.
+Contributions are welcome! Read the [contribution guidelines](contributing.md) first.
 
-There are many ways to contribute: writing code, alerting rules, documentation, reporting issues, discussing better error tracking...
+There are many ways to help: suggesting a tool, improving a description, reporting a dead link, or opening a discussion about the taxonomy.
 
-## 💫 Show your support
+## Footnotes
 
 Give a ⭐️ if this project helped you!
 
 [![GitHub Sponsors](https://img.shields.io/github/sponsors/samber?style=for-the-badge)](https://github.com/sponsors/samber)
-
-## 📝 License
-
-- Alert rules and content: [Creative Commons CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-- Site source code: [MIT](site/LICENSE)
-
-See [LICENSE](LICENSE) for details.

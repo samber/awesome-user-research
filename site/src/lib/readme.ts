@@ -79,7 +79,7 @@ const SKIP_SLUGS = new Set([
   'contents',
   'contributing',
   'contributors',
-  'show-your-support',
+  'footnotes',
 ]);
 
 export function getAllSections(): Section[] {
