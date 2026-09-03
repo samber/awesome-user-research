@@ -4,6 +4,11 @@
 
 <!--lint disable double-link-->
 
+See also:
+
+- [awesome-ai-native](https://github.com/samber/awesome-ai-native) - Products where the LLM is the product itself.
+- [awesome-prometheus-alerts](https://github.com/samber/awesome-prometheus-alerts) - Collection of Prometheus alerting rules.
+
 ## Contents
 
 - [All-in-one platforms](#all-in-one-platforms)
