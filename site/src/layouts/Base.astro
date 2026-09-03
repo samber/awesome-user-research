@@ -3,6 +3,7 @@ import { execFileSync } from 'node:child_process';
 import { resolve } from 'node:path';
 import { readFileSync } from 'node:fs';
 import Analytics from '../components/Analytics.astro';
+import SiteFooter from '../components/SiteFooter.astro';
 
 const SITE_URL = 'https://samber.github.io/awesome-user-research/';
 
@@ -191,5 +192,7 @@ const jsonLd = {
     </div>
 
     <slot />
+
+    <SiteFooter />
   </body>
 </html>
