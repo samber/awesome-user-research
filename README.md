@@ -200,6 +200,7 @@ Conduct, record, and analyze user interviews at scale.
 - [Lookback](https://lookback.com) - Live and async moderated interview sessions with real-time team observation.
 - [Lyssna](https://lyssna.com) - Remote research platform for moderated and unmoderated user interviews.
 - [Outset](https://outset.ai) - AI-moderated interviews that scale qualitative research without a human moderator.
+- [Speak AI](https://speakai.co) - AI-powered interview transcription and qualitative analysis in 100+ languages, with API and MCP access.
 
 ## Research repository
 
