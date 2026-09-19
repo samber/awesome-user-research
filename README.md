@@ -27,6 +27,7 @@ See also:
 - [Product tours & onboarding](#product-tours--onboarding)
 - [User testing](#user-testing)
 - [User interview](#user-interview)
+- [Synthetic research](#synthetic-research)
 - [Research repository](#research-repository)
 - [User recruitment](#user-recruitment)
 - [Learn](#learn)
@@ -200,6 +201,14 @@ Conduct, record, and analyze user interviews at scale.
 - [Lookback](https://lookback.com) - Live and async moderated interview sessions with real-time team observation.
 - [Lyssna](https://lyssna.com) - Remote research platform for moderated and unmoderated user interviews.
 - [Outset](https://outset.ai) - AI-moderated interviews that scale qualitative research without a human moderator.
+
+## Synthetic research
+
+> The persona never cancels the interview. It also never pays for the product.
+
+Simulate target audiences with AI personas to screen ideas and sharpen hypotheses before or alongside research with real users.
+
+- [Minds](https://getminds.ai) - Synthetic research platform for building AI personas and panels to run interviews, concept tests, message tests, MaxDiff and conjoint studies.
 
 ## Research repository
 
