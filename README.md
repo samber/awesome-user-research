@@ -199,6 +199,7 @@ Conduct, record, and analyze user interviews at scale.
 - [Great Question](https://greatquestion.co) - End-to-end interview platform with scheduling, recording, and transcription.
 - [Lookback](https://lookback.com) - Live and async moderated interview sessions with real-time team observation.
 - [Lyssna](https://lyssna.com) - Remote research platform for moderated and unmoderated user interviews.
+- [Minds](https://getminds.ai) - AI-moderated interviews with synthetic audiences, run alongside surveys in the same study.
 - [Outset](https://outset.ai) - AI-moderated interviews that scale qualitative research without a human moderator.
 
 ## Research repository
