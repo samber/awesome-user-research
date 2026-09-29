@@ -217,6 +217,7 @@ Centralize, organize, and make discoverable all research artifacts — transcrip
 
 Find and recruit the right participants for your research.
 
+- [Chorus Research](https://chorusresearch.io) - Self-service surveys with real respondents: define a target audience, estimate cost, launch, and collect responses; public API and MCP interface.
 - [Prolific](https://prolific.com) - High-quality participant recruitment for research studies.
 - [Respondent](https://respondent.io) - B2B and consumer research participant recruitment.
 - [User Interviews](https://userinterviews.com) - The fastest way to recruit research participants.
