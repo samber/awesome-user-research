@@ -194,6 +194,7 @@ Validate designs and flows with real users before shipping.
 
 Conduct, record, and analyze user interviews at scale.
 
+- [Airtape](https://airtape.co) - Browser-based interview recording that captures every participant locally on a separate audio and video track.
 - [Discuss](https://discuss.io) - Qual research platform for live and async moderated interviews.
 - [Grain](https://grain.com) - AI-powered meeting recorder and highlight reel for user interviews.
 - [Great Question](https://greatquestion.co) - End-to-end interview platform with scheduling, recording, and transcription.
