@@ -75,6 +75,7 @@ Ask questions along your users' journey.
 Aggregate, tag, and extract signal from qualitative feedback at scale.
 
 - [Chattermill](https://chattermill.com) - AI-powered feedback analytics for CX and product teams.
+- [Dagmor](https://dagmor.app/) - Checks recorded calls against chosen or call-drafted scripts and reports transcripts, agent scores, conduct, coverage, trends, and customers’ words beside survey answers.
 - [Enterpret](https://enterpret.com) - AI-native feedback analysis aggregating support tickets, reviews, and NPS at scale.
 - [Kapiche](https://kapiche.com) - AI-driven theme discovery and clustering from unstructured customer feedback.
 - [Thematic](https://getthematic.com) - AI-powered thematic analysis for clustering recurring themes from open-ended feedback.
