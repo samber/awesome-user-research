@@ -88,6 +88,7 @@ Build an understanding of customers, then using that knowledge to prioritize fea
 - [Canny](https://canny.io) - Capture, organize, and analyze product feedback.
 - [Harvestr](https://harvestr.io) - Customer feedback and product management software.
 - [Productboard](https://www.productboard.com) - Product management software centered on customer insights.
+- [WishKit](https://www.wishkit.io) - In-app feature request board for iOS and web apps, useful when you want users to submit and vote on what you build next.
 
 ## Session recording
 
