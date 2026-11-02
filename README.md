@@ -174,6 +174,7 @@ Guide users through your product, drive adoption, and collect in-context feedbac
 
 - [Appcues](https://appcues.com) - No-code user onboarding and product tours.
 - [Intercom](https://intercom.com) - In-app messaging, product tours, and customer support in one platform.
+- [KYC Flows](https://www.kycflows.com) - Dated, screen-by-screen screenshots of embedded wallet, login and KYC sign-up flows (Privy, Dynamic, thirdweb, MetaMask Embedded, Crossmint, Didit), useful for benchmarking onboarding UX and tracking vendor pricing.
 - [Pendo](https://pendo.io) - In-app guides and walkthroughs tied to product analytics.
 - [Screeb](https://screeb.app) - In-app product tours and onboarding flows tied to user segments and analytics.
 
