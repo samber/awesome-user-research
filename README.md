@@ -200,6 +200,7 @@ Conduct, record, and analyze user interviews at scale.
 - [Lookback](https://lookback.com) - Live and async moderated interview sessions with real-time team observation.
 - [Lyssna](https://lyssna.com) - Remote research platform for moderated and unmoderated user interviews.
 - [Outset](https://outset.ai) - AI-moderated interviews that scale qualitative research without a human moderator.
+- [Spirelight Transcription](https://transcription.spirelight.ai/en) - Transcribes interview recordings with speakers and timestamps, lets you correct them in the browser and code quotes for analysis.
 
 ## Research repository
 
