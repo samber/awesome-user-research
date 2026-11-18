@@ -195,6 +195,7 @@ Validate designs and flows with real users before shipping.
 Conduct, record, and analyze user interviews at scale.
 
 - [Discuss](https://discuss.io) - Qual research platform for live and async moderated interviews.
+- [Frank AI Researcher](https://www.hifrank.ai) - AI-moderated voice interviews with your own customers, via a link or website widget, that return transcripts, themes, sentiment and quotes.
 - [Grain](https://grain.com) - AI-powered meeting recorder and highlight reel for user interviews.
 - [Great Question](https://greatquestion.co) - End-to-end interview platform with scheduling, recording, and transcription.
 - [Lookback](https://lookback.com) - Live and async moderated interview sessions with real-time team observation.
