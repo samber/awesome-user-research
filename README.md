@@ -195,6 +195,7 @@ Validate designs and flows with real users before shipping.
 Conduct, record, and analyze user interviews at scale.
 
 - [Discuss](https://discuss.io) - Qual research platform for live and async moderated interviews.
+- [FastScribe](https://fastscribe.org/) - Transcribes recorded user interviews into speaker-labeled text that researchers can check against the audio and export for analysis.
 - [Grain](https://grain.com) - AI-powered meeting recorder and highlight reel for user interviews.
 - [Great Question](https://greatquestion.co) - End-to-end interview platform with scheduling, recording, and transcription.
 - [Lookback](https://lookback.com) - Live and async moderated interview sessions with real-time team observation.
