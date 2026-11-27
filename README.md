@@ -86,6 +86,7 @@ Aggregate, tag, and extract signal from qualitative feedback at scale.
 Build an understanding of customers, then using that knowledge to prioritize features development.
 
 - [Canny](https://canny.io) - Capture, organize, and analyze product feedback.
+- [FeedLog](https://feedlog.ai/) - Open-source platform that helps SaaS teams turn customer support conversations into product feedback.
 - [Harvestr](https://harvestr.io) - Customer feedback and product management software.
 - [Productboard](https://www.productboard.com) - Product management software centered on customer insights.
 
