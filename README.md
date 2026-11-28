@@ -195,6 +195,7 @@ Validate designs and flows with real users before shipping.
 Conduct, record, and analyze user interviews at scale.
 
 - [Discuss](https://discuss.io) - Qual research platform for live and async moderated interviews.
+- [Frank Churn Interviews for Stripe](https://github.com/nar-vardanyan/frank-stripe-churn-interviews) - Open-source app that emails a short voice interview after a Stripe cancellation.
 - [Grain](https://grain.com) - AI-powered meeting recorder and highlight reel for user interviews.
 - [Great Question](https://greatquestion.co) - End-to-end interview platform with scheduling, recording, and transcription.
 - [Lookback](https://lookback.com) - Live and async moderated interview sessions with real-time team observation.
